@@ -1,0 +1,13 @@
+1- Elaborar um algoritmo que imprima a tabuada de 1 a 9
+
+algoritmo "tabuada"
+var
+i,num:inteiro
+inicio
+escreva("escreva um numero de 1 a 9: ")
+leia(num)
+para i de 0 ate 9 faca
+escreva (num,"x",i,"=",i*num)
+
+fimpara
+fimalgoritmo
